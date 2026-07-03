@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "obsidian-vault": {
+      "command": "python3",
+      "args": [
+        "/home/kim/OurKnowledgeVault/obsidian_mcp_full.py"
+      ],
+      "env": {
+        "VAULT_PATH": "/home/kim/OurKnowledgeVault",
+        "PYTHONUNBUFFERED": "1"
+      }
+    }
+  }
+}
