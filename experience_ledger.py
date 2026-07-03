@@ -42,8 +42,8 @@ class ExperienceLedger:
             "Language": [
                 Experience("Language", "Lexer 구현", Verdict.VERIFIED, 292, 79,
                           "freelang-v11에서 실제 구현 확인 ✅ E2E 검증 완료"),
-                Experience("Language", "Parser / AST 구현", Verdict.IMPLEMENTED, 364, 13,
-                          "freelang-v11-1에서 발굴됨"),
+                Experience("Language", "Parser / AST 구현", Verdict.VERIFIED, 364, 13,
+                          "freelang-v11에서 실제 구현 확인 ✅ parser.js (116KB) + ast.js (11KB)"),
                 Experience("Language", "Type Checker", Verdict.IMPLEMENTED, 103, 34,
                           "freelang-v11-1에서 발굴됨"),
                 Experience("Language", "IR / Bytecode 생성", Verdict.IMPLEMENTED, 76, 22,
