@@ -42,3 +42,7 @@ date: "2026-07-03"
 
 ## Related
 - [[Parser Ast 구현 검증]]
+
+
+## Related
+- [[Type Checker 검증]]
