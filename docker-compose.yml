@@ -1,0 +1,34 @@
+version: '3.8'
+
+services:
+  knowledge-vault:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: knowledge-vault
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./:/app
+      - ./projects:/app/projects
+      - ./tools:/app/tools
+      - ./concepts:/app/concepts
+    environment:
+      - VAULT_PATH=/app
+      - PYTHONUNBUFFERED=1
+    restart: always
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/api/stats"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+    labels:
+      - "com.knowledge.vault=true"
+      - "com.knowledge.service=web"
+    networks:
+      - knowledge-network
+
+networks:
+  knowledge-network:
+    driver: bridge
