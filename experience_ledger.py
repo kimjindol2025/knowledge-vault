@@ -101,7 +101,7 @@ class ExperienceLedger:
                           "RFC 6455, HTTP rate limiting"),
                 Experience("Protocol", "TCP 서버 구현", Verdict.IMPLEMENTED, 26, 8,
                           "freelang-v11-1에서 발굴됨"),
-                Experience("Protocol", "TLS/SSL 구현", Verdict.IMPLEMENTED, 38, 5,
+                Experience("Protocol", "TLS/SSL 구현", Verdict.VERIFIED, 38, 5,
                           "fre-memory에서 발굴됨"),
                 Experience("Protocol", "HTTP/2 구현", Verdict.IMPLEMENTED, 25, 4,
                           "dclub-mail-fl에서 발굴됨"),
