@@ -58,3 +58,7 @@ date: "2026-07-03"
 
 ## Related
 - [[Goal Audit 결과 및 Proven Repo]]
+
+
+## Related
+- [[Acid 트랜잭션 구현 검증]]

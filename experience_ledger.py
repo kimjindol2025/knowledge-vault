@@ -79,7 +79,7 @@ class ExperienceLedger:
                 Experience("Runtime", "Syscall / User Mode 구현", Verdict.IMPLEMENTED, 8, 8, ""),
             ],
             "Database": [
-                Experience("Database", "ACID 트랜잭션 구현", Verdict.IMPLEMENTED, 135, 21,
+                Experience("Database", "ACID 트랜잭션 구현", Verdict.VERIFIED, 135, 21,
                           "START TRANSACTION/COMMIT/ROLLBACK/SAVEPOINT"),
                 Experience("Database", "B-Tree 인덱싱 구현", Verdict.IMPLEMENTED, 41, 11,
                           "PRIMARY KEY 자동, O(log n)"),
