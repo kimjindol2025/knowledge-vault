@@ -1,0 +1,12 @@
+{
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "attachments",
+  "baseFontSize": 16,
+  "legacyEditor": false,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "Letter",
+    "margin": "0",
+    "downscalePercent": 100
+  }
+}
