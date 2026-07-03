@@ -97,7 +97,7 @@ class ExperienceLedger:
             "Protocol": [
                 Experience("Protocol", "HTTP 서버 구현", Verdict.VERIFIED, 95, 26,
                           "AION-ts-orchestrator에서 발굴됨"),
-                Experience("Protocol", "WebSocket 서버 구현", Verdict.IMPLEMENTED, 131, 9,
+                Experience("Protocol", "WebSocket 서버 구현", Verdict.VERIFIED, 131, 9,
                           "RFC 6455, HTTP rate limiting"),
                 Experience("Protocol", "TCP 서버 구현", Verdict.IMPLEMENTED, 26, 8,
                           "freelang-v11-1에서 발굴됨"),
