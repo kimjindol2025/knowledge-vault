@@ -54,3 +54,7 @@ date: "2026-07-03"
 
 ## Related
 - [[Websocket 서버 구현 검증]]
+
+
+## Related
+- [[Goal Audit 결과 및 Proven Repo]]
