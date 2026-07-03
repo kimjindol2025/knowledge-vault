@@ -46,3 +46,7 @@ date: "2026-07-03"
 
 ## Related
 - [[Type Checker 검증]]
+
+
+## Related
+- [[Http 서버 구현 검증]]

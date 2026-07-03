@@ -95,7 +95,7 @@ class ExperienceLedger:
                           "완전한 SQL 파서 — freelang_mariadb Phase 1"),
             ],
             "Protocol": [
-                Experience("Protocol", "HTTP 서버 구현", Verdict.IMPLEMENTED, 95, 26,
+                Experience("Protocol", "HTTP 서버 구현", Verdict.VERIFIED, 95, 26,
                           "AION-ts-orchestrator에서 발굴됨"),
                 Experience("Protocol", "WebSocket 서버 구현", Verdict.IMPLEMENTED, 131, 9,
                           "RFC 6455, HTTP rate limiting"),
