@@ -20,9 +20,17 @@ from typing import Any, Optional
 try:
     from mcp.server import Server, stdio_server
     from mcp.types import Tool, TextContent, Resource, ResourceTemplate
+    MCP_AVAILABLE = True
 except ImportError:
-    print("⚠️ MCP 라이브러리 설치 필요: pip install mcp")
-    exit(1)
+    # MCP 라이브러리 없으면 standalone 모드로 동작
+    MCP_AVAILABLE = False
+    class Server:
+        def __init__(self, name): self.name = name
+    class stdio_server: pass
+    class Tool: pass
+    class TextContent: pass
+    class Resource: pass
+    class ResourceTemplate: pass
 
 
 class ObsidianVaultMCP:
